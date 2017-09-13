@@ -1,5 +1,5 @@
 FROM geerlingguy/docker-centos7-ansible
-LABEL maintainer="Irvin Capagcuan"
+MAINTAINER Irvin Capagcuan <irvin@capagcuan.org>
 
 RUN yum -y update; yum clean all; \
 	yum makecache fast; \
